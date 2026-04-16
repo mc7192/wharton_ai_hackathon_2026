@@ -50,13 +50,13 @@ const PROPERTIES = [
   },
 ];
 
-// Property gradient colors (used in place of images)
-const GRADIENTS = {
-  roma: "linear-gradient(135deg, #1a0a00, #8B4513 50%, #C9A96E)",
-  beach: "linear-gradient(135deg, #0c2340, #1e5f8c 50%, #7ec8e3)",
-  frisco: "linear-gradient(135deg, #1a0030, #4c1d95 50%, #8B5CF6)",
-  pompei: "linear-gradient(135deg, #1a0a00, #92400e 50%, #D97706)",
-};
+// // Property gradient colors (used in place of images)
+// const GRADIENTS = {
+//   roma: "linear-gradient(135deg, #1a0a00, #8B4513 50%, #C9A96E)",
+//   beach: "linear-gradient(135deg, #0c2340, #1e5f8c 50%, #7ec8e3)",
+//   frisco: "linear-gradient(135deg, #1a0030, #4c1d95 50%, #8B5CF6)",
+//   pompei: "linear-gradient(135deg, #1a0a00, #92400e 50%, #D97706)",
+// };
 
 const scoreColor = (s) => (s >= 8 ? C.green : s >= 6 ? C.orange : C.red);
 
